@@ -34,4 +34,4 @@ client.on("ready",() => {
  console.log(log01)
 });
 
-client.giris();
+client.login(process.env.BOT_TOKEN);
